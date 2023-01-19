@@ -1,0 +1,31 @@
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+  border-bottom: groove;
+  margin-bottom: 10px;
+}
+
+.section {
+  font-size: x-large;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.sub-section {
+  position: relative;
+  margin: 10px 0px;
+  padding-left: 28px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.sub-section::before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 100%;
+}

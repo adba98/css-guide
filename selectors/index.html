@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="selectors.css" />
+    <title>CSS</title>
+  </head>
+  <body>
+    <div class="title">Selectores</div>
+    <div class="section">De atributo</div>
+
+    <h3>Tag</h3>
+    <div id="identificator">Identificador</div>
+    <div class="identificator">Clase</div>
+
+    <ul>
+      <li><a href="https://www.google.com">Atributo normal</a></li>
+      <li><a href="https://www.google.com/">(=) Igual a</a></li>
+      <li><a href="http://localhost:8080">(^) Comienza en</a></li>
+      <li><a href="https://www.example.com">(*) Coincide con</a></li>
+      <li><a href="https://www.google.es">($) Termina en</a></li>
+    </ul>
+
+    <label lang="en">Si el atributo esta en ingles (en)</label>
+    <label lang="en-US">o tiene una variacion de el (en-US)</label>
+
+    <div class="section">Agrupados</div>
+    <p class="text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas ab odio
+      assumenda perferendis laboriosam, sunt dolorem! Cum distinctio quo
+      perferendis eius. Consequuntur doloremque asperiores hic aperiam? Quod
+      modi eum non! Voluptates totam maiores, ipsum, fugiat voluptatem hic quam
+      blanditiis illum nam, tempora animi voluptatum odio aliquam quisquam
+      recusandae ratione.
+    </p>
+    <p class="text-1">
+      Dicta quisquam soluta labore nisi tenetur et ex distinctio odio tempora
+      doloremque reiciendis, itaque vel qui nemo vero repudiandae! Quos quasi
+      officiis rerum corrupti eligendi doloribus exercitationem optio quis
+      quisquam cum qui, reprehenderit provident nihil corporis veniam! Illum
+      reiciendis harum provident quam placeat, tempora laudantium, corrupti,
+      rerum natus explicabo rem.
+    </p>
+    <p class="text-2">
+      Cum praesentium eligendi hic illo corrupti blanditiis exercitationem
+      quisquam velit voluptate! Enim, nihil accusamus laborum eveniet autem
+      veniam.
+    </p>
+
+    <div class="section">Combinados</div>
+
+    <div class="sub-section">Descendente</div>
+    <div>
+      <p class="descendant__text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eveniet
+        temporibus architecto, ratione iusto facere quam animi doloribus alias
+        vitae fuga molestias distinctio sapiente ducimus optio. Sit esse
+        voluptates sint!
+      </p>
+    </div>
+
+    <div class="sub-section">Hijo directo</div>
+    <div class="child__text">
+      <span>Hijo</span>
+      <div>
+        <span>Nieto</span>
+      </div>
+      <span>Hijo</span>
+    </div>
+
+    <div class="sub-section">Hermanos</div>
+    <div>
+      <div class="sibling__text">Hermano base</div>
+      <span>(+) Hermano siguiente</span>
+      <div>(~) Hermano</div>
+      <div>(~) Hermano</div>
+      <div>(~) Hermano</div>
+    </div>
+  </body>
+</html>

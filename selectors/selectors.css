@@ -1,0 +1,70 @@
+/* Universal */
+* {
+  background-color: white;
+}
+
+/* Tag */
+h3 {
+  background-color: aquamarine;
+}
+
+/* Id */
+#identificator {
+  background-color: cadetblue;
+}
+
+/* Class */
+.identificator {
+  background-color: cornflowerblue;
+}
+
+/* Attribute */
+[href] {
+  color: red;
+}
+
+[href='https://www.google.com/']
+{
+  color: cornflowerblue;
+}
+
+[href^='http:'] {
+  color: green;
+}
+
+[href*='example'] {
+  color: blueviolet;
+}
+
+[href$='es'] {
+  color: chocolate;
+}
+
+[lang|='en'] {
+  color: darkkhaki;
+}
+
+/* Group */
+.text,
+.text-1,
+.text-2 {
+  background-color: antiquewhite;
+}
+
+/* Descendant */
+div .descendant__text {
+  color: darkcyan;
+}
+
+/* Child And Sibling */
+.child__text > span {
+  color: darkcyan;
+}
+
+.sibling__text + span {
+  color: darkcyan;
+}
+
+.sibling__text ~ div {
+  color: thistle;
+}
