@@ -1,0 +1,52 @@
+.box1 {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  overflow: auto;
+}
+
+.box2 {
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.sub-box {
+  padding: 10px;
+  background-color: coral;
+}
+
+.text1 {
+  width: 350px;
+}
+
+.text2 {
+  margin: 0;
+}
+
+.header {
+  background-color: lightcoral;
+  height: 100px;
+  margin-bottom: 20px;
+  /* overflow: hidden; */
+  /* padding-top: 10px; */
+  /* border-top: 0.1px solid lightcoral; */
+}
+
+.box3,
+.box4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: lightcyan;
+  width: 300px;
+  height: 300px;
+}
+
+.box4 {
+  margin-top: 20px;
+}
