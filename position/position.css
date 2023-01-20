@@ -1,0 +1,53 @@
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.box-r1,
+.box-a1,
+.box-f1 {
+  background-color: lightcoral;
+}
+
+.box-r2,
+.box-a2 {
+  background-color: lightgreen;
+}
+
+.box-r1 {
+  position: relative;
+  left: 100px;
+}
+
+.box-r2 {
+  position: relative;
+  top: 8px;
+  bottom: 25px;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  position: relative;
+  left: 200px;
+}
+
+.box-a1 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.box-a2 {
+  position: absolute;
+  right: 0px;
+  bottom: 50%;
+}
+
+.box-f1 {
+  position: fixed;
+  top: 50px;
+  right: 0px;
+}
