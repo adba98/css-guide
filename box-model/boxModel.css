@@ -1,0 +1,15 @@
+.block {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 50px;
+  margin: 25px 50px;
+  padding: 25px 50px;
+  border: 5px solid black;
+}
+
+.inline {
+  background-color: cadetblue;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px 10px;
+}
