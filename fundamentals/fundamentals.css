@@ -1,0 +1,50 @@
+h4.specificity#specificity {
+  background-color: violet;
+}
+
+h4 {
+  background-color: red;
+}
+
+.specificity {
+  background-color: blue;
+}
+
+#specificity {
+  background-color: yellow;
+}
+
+h4.specificity {
+  background-color: green;
+}
+
+h4#specificity {
+  background-color: orange;
+}
+
+/* 
+h1.specificity {
+  background-color: tomato !important;
+} 
+
+.specificity {
+  background-color: tomato !important;
+} 
+*/
+
+.inheritance {
+  background-color: transparent;
+  color: cornflowerblue;
+}
+
+.link {
+  color: inherit;
+}
+
+.list {
+  color: burlywood;
+}
+
+.extra {
+  color: initial;
+}
