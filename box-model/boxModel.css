@@ -13,3 +13,13 @@
   margin-right: 100px;
   padding: 10px 10px;
 }
+
+.text {
+  display: inline;
+}
+
+.link {
+  background-color: cornflowerblue;
+  display: block;
+  margin-bottom: 10px;
+}
