@@ -31,9 +31,11 @@ Valores:
 
 ## Stacking context
 
-El contexto de apilamiento es el espacio en el cual los elementos se apilan adelante o por detrás de otros. El orden es (de adelante a atrás)
+El contexto de apilamiento es el espacio en el cual los elementos se apilan adelante o por detrás de otros. El orden es (de adelante a atrás):
 
 - Elementos posicionados con `z-index` ≥ 1
-- Elementos posicionados sin `z-index` (auto)
+- Elementos posicionados sin `z-index` = 1 o `auto`
 - Elementos no posicionados
 - Elementos posicionados con `z-index` ≤ 1
+
+Un padre nunca podrá estar por encima de un elemento hijo, pero un elemento hijo "podría" estar por debajo del padre
