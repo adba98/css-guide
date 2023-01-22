@@ -52,6 +52,40 @@ La herencia es la capacidad que tienen algunos elementos de heredar algunas prop
 - o (Opera)
 - moz (Mozilla)
 
+## Orden de propiedades
+
+No existe ninguna norma de como hacerlo, sin embargo es importante dentro del desarrollo. Para los expertos el orden ideal es:
+
+1. Posicionamiento
+1. Box Model
+1. Texto
+1. Visuales (colores, bordes, background)
+1. Lo demas ()
+
+```css
+body {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+
+  font-size: 15px;
+  text-align: center;
+
+  color: lightblue;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  opacity: 1;
+}
+```
+
 <!-- Markdown links -->
 
 [specificity]: https://jonassebastianohlsson.com/specificity-graph/
