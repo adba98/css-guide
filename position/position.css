@@ -65,7 +65,12 @@
   height: 200px;
 }
 
-.menu {
+article {
+  outline: 2px solid black;
+}
+
+.article-title {
+  background-color: wheat;
   position: sticky;
   top: 0;
 }
