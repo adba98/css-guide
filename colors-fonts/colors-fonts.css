@@ -1,0 +1,65 @@
+.box-1 {
+  border-left: 50px solid lightblue;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: lightsteelblue;
+  color: lightcoral;
+}
+
+.main {
+  background-color: currentColor;
+}
+
+.box-2 {
+  width: 50px;
+  height: 50px;
+  background-color: cadetblue;
+}
+
+.box-3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 0);
+  background-color: rgb(100, 100, 255);
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.3);
+}
+
+.box-4 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #ff0;
+  background-color: #6464ff;
+  box-shadow: 5px 5px 10px #0000004d;
+}
+
+.text-1 {
+  font-family: serif;
+  text-transform: none;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.text-2 {
+  font-family: sans-serif;
+  text-transform: lowercase;
+  text-decoration: overline;
+  word-spacing: 5px;
+}
+
+.text-3 {
+  font-family: cursive;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+.text-4 {
+  font-family: fantasy;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 0 lightpink;
+}
