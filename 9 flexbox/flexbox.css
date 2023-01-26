@@ -1,0 +1,70 @@
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 0 auto 10px;
+  display: flex;
+}
+
+.c1 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.c2 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.c3 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.c4 {
+  width: 700px;
+  margin-top: 20px;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  color: white;
+}
+
+.item:nth-child(even) {
+  background-color: lightseagreen;
+}
+
+.self {
+  align-self: center;
+}
+
+.order { 
+  order: 1;
+}
+
+.i1 {
+  flex-basis: 100px;
+  height: auto;
+  flex-grow: 1;
+}
+
+.i1:nth-child(odd) {
+  flex-grow: 2;
+}
+
+.i2 {
+  flex-basis: 200px;
+  height: auto;
+  flex-shrink: 1;
+}
+
+.i2:nth-child(odd) {
+  flex-shrink: 2;
+}
